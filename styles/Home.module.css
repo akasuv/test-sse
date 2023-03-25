@@ -249,6 +249,12 @@
   }
 }
 
+@media (max-width: 500px) {
+  .main {
+    padding: 30px;
+  }
+}
+
 /* Tablet and Smaller Desktop */
 @media (min-width: 701px) and (max-width: 1120px) {
   .grid {

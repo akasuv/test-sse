@@ -13,7 +13,6 @@ export default function Home() {
   React.useEffect(() => {
     if (!mounted) return;
     (async () => {
-      await new Promise((resolve) => setTimeout(resolve, 1000));
       const eventSource = new EventSource(
         "https://test-sse-node-production.up.railway.app/api/sse"
       );
